@@ -3,9 +3,26 @@
 }
 
 .hw {
-
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    flex-direction: column;
 }
 
 .hwTitle {
+    width: 165px;
+    height: 27px;
+    color: #000000;
+    margin-left: 400px;
+    margin-top: 50px;
 
+}
+
+.messageClass {
+    border: #0059b3;
+}
+
+.hr {
+    background-color: grey;
+    margin-bottom: 15px;
 }
