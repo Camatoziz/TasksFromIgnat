@@ -1,13 +1,30 @@
 .greetingForm {
+    display: grid;
+    grid-template: "t"
+"i";
 }
 
 .inputAndButtonContainer {
-}
+    display: grid;
+    flex-direction: row;
+    grid-area: i;
+    grid-template: "i b";
+    justify-content: start;
+    align-items: center;
+    }
 
 .error {
 }
 
 .input {
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+    grid-area: input;
+    width: 372px;
+    height: 36px;
+    margin-left: 70px;
+    margin-right: 12px;
+    margin-top: 9px;
 }
 
 .input:focus {
@@ -17,6 +34,30 @@
 }
 
 .button {
+    grid-area: b;
+    width: 78px;
+    height: 36px;
+    background: #0066CC;
+    opacity: 0.5;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+
+    /* Light /140 */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 .button:focus {
@@ -29,6 +70,23 @@
 }
 
 .text {
+    grid-area: t;
+    margin-left: 70px;
+    width: 143px;
+    height: 17px;
+    left: 70px;
+    top: 998px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: rgba(0, 0, 0, 0.5);
+
 }
 
 .greeting {
