@@ -1,35 +1,206 @@
 .button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 24px;
+    gap: 10px;
 }
 
 .disabled {
+
+    width: 133px;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #002E5C;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    background: #004D99;
+    opacity: 0.5;
+    border-radius: 3px;
+    border: 0;
 }
 
 .secondary {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 24px;
+    gap: 10px;
+    background-color: white;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0066CC;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    width: 176px;
+    height: 30px;
+
+
+    border: 1px solid #0066CC;
+    border-radius: 3px;
 }
 
 .default {
+
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    width: 132px;
+    height: 30px;
+
+    background: #0066CC;
+    border-radius: 3px;
+    border: 0px;
 }
 
 .red {
+
+    width: 129px;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    background: #CC1439;
+    border-radius: 3px;
+    border: 0;
 }
 
 .default:hover {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 24px;
+    gap: 10px;
+
+    width: 167px;
+    height: 30px;
+
+    background: #0080FF;
+    border-radius: 3px;
 }
 
 .red:hover {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 24px;
+    gap: 10px;
+
+    width: 167px;
+    height: 30px;
+
+    background: #FF1A47;
+    border-radius: 3px;
+
 }
 
 .secondary:hover {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 24px;
+    gap: 10px;
+
+    width: 176px;
+    height: 30px;
+
+    background: #E5F0FA;
+    border: 1px solid #0066CC;
+    border-radius: 3px;
 }
 
 
 .default:active {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 24px;
+    gap: 10px;
+
+
+    width: 149px;
+    height: 30px;
+
+
+    background: #0059B3;
+    border-radius: 3px;
 }
 
 .secondary:active {
+
+
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 24px;
+    gap: 10px;
+
+
+    width: 176px;
+    height: 30px;
+
+    background: #C9E5FF;
+    border: 1px solid #0066CC;
+    border-radius: 3px;
 }
 
 .red:active {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 24px;
+    gap: 10px;
+
+
+    width: 149px;
+    height: 30px;
+
+
+    background: #B31232;
+    border-radius: 3px;
 }
 
 .button:disabled {
